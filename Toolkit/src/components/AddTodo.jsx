@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { addTodo } from '../feature/todo/todoSlice'
+import { addTodo } from '../feature/todo/todoSlice.js'
 import { useDispatch } from 'react-redux';
 
 function AddTodo() {
